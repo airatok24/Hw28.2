@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "lesson28-project-sourse"
+version = "0.1.0"
+description = ""
+authors = ["Айрат <airat.nevretdinov@gamil.com>"]
+readme = "README.md"
+packages = [{include = "lesson28_project_sourse"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.1"
+Pillow = "^9.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
